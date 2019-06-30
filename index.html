@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AJAX drop down list</title>
+</head>
+
+<body>
+    <section>
+        <form id="myForm">
+            <fieldset>
+                <legend>Choose a location...</legend>
+                <label for="country"><b>Country</b></label>
+                <select class="form-control" id="country" name="departmentsDropdown">
+                    <option value="-1">Please Select Country</option>
+                    <option value="Ukraine">Ukraine</option>
+                    <option value="Poland">Poland</option>
+                    <option value="france">France</option>
+                </select>
+                <label for="city-select"><b>City</b></label>
+                <select class="form-control" id="city-select" name="departmentsDropdown"></select>
+                <div class="msg"></div>
+            </fieldset>
+        </form>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

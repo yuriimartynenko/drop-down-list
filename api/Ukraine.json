@@ -1,0 +1,30 @@
+[
+    {
+        "city_id": 707822,
+        "city_name": "Chernivtsi"
+    },
+    {
+        "city_id": 707833,
+        "city_name": "Dnipro"
+    },
+    {
+        "city_id": 707839,
+        "city_name": "Lviv"
+    },
+    {
+        "city_id": 707810,
+        "city_name": "Kyiv"
+    },
+    {
+        "city_id": 707811,
+        "city_name": "Kharkiv"
+    },
+    {
+        "city_id": 707812,
+        "city_name": "Ivano-Frankivsk"
+    },
+    {
+        "city_id": 707813,
+        "city_name": "Uzhhorod"
+    }
+]
