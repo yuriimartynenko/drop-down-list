@@ -15,5 +15,13 @@
     "express": "^4.17.1"
   },
   "main": "index.js",
-  "keywords": []
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuriimartynenko/drop-down-list.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yuriimartynenko/drop-down-list/issues"
+  },
+  "homepage": "https://github.com/yuriimartynenko/drop-down-list#readme"
 }
