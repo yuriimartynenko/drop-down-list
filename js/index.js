@@ -13,7 +13,6 @@ $('#country').change(function(){
                 if (data[i].city_id) {
                     selectedCity += `<option value='${data[i].city_id}'> ${data[i].city_name} </option>`; 
                 }
-                
             }
             $("#city-select").html(selectedCity);
         }
