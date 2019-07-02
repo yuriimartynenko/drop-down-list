@@ -6,7 +6,7 @@ $('#country').change(function(){
   $.ajax({
         type: "GET",
         url: `api/${selectedCountry}.json`,
-        data: "{}",
+        data: "",
         success: function (data) {
             let selectedCity = '<option value="-1">Please Select City</option>';
             for (let i = 0; i < data.length; i++) {
